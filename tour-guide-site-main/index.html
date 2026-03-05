@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מטיילים בדרך ארץ - בועז הרץ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Heebo', sans-serif; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/cover.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-blue-700">בועז הרץ</div>
+            <div class="hidden md:flex space-x-reverse space-x-6 items-center">
+                <a href="#about" class="hover:text-blue-600">אודות</a>
+                <a href="#tours" class="hover:text-blue-600">סוגי טיולים</a>
+                <a href="#gallery" class="hover:text-blue-600">גלריה</a> 
+                <a href="#testimonials" class="hover:text-blue-600">המלצות</a>
+                <a href="https://chat.whatsapp.com/DdvYlI4u7uM7Ka4K3qkYoS?mode=gi_t" target="_blank" class="text-green-600 font-bold hover:underline">הצטרפו לקבוצה</a>
+                <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">צרו קשר</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-bg h-[70vh] flex items-center justify-center text-center text-white px-6">
+        <div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">טיולים בדרך ארץ</h1>
+            <p class="text-xl md:text-2xl mb-8">מגלים את ישראל דרך הרגליים</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="https://wa.me/972505323701" class="inline-block bg-green-500 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-green-600 transition shadow-lg">דברו איתי בוואטסאפ</a>
+                <a href="https://chat.whatsapp.com/DdvYlI4u7uM7Ka4K3qkYoS?mode=gi_t" target="_blank" class="inline-block bg-white text-green-600 border-2 border-green-500 px-8 py-4 rounded-full text-lg font-bold hover:bg-green-50 transition shadow-lg">הצטרפו לקבוצת העדכונים</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <img src="images/about.jpg" alt="בועז הרץ - מורה דרך" class="rounded-2xl shadow-xl w-full h-auto object-cover">
+            </div>
+            <div class="md:w-1/2 text-right">
+                <h2 class="text-3xl font-bold mb-6 text-blue-800">קצת עליי</h2>
+                <p class="text-lg leading-relaxed mb-6 text-gray-700">
+                    נעים מאוד, אני בועז הרץ. מורה דרך מוסמך עם תשוקה עמוקה לנופי ארצנו, להיסטוריה המרתקת ולסיפורים שמסתתרים מאחורי כל אבן. 
+                    <br><br>
+                   אני חי ונושם את שבילי הגליל והגולן כבר שנים, ומכיר כל מעיין נסתר, כל תצפית פנורמית וכל סיפור שמאחורי ההרים הירוקים. בטיולים איתי, נגיע למקומות שרק המקומיים מכירים ונחווה את הקסם של הטבע בשיאו.
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">התמחות בטיולי משפחות, קבוצות, גמלאים וארגונים</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">מורה דרך מוסמך עם ניסיון של שנים בשטח</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">מומחה מיוחד לאזור הצפון, הגליל והגולן</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="text-green-500 text-xl">✅</span>
+                        <span class="text-gray-700 font-medium">הדרכה חווייתית עם דגש על סיפורים וחיבור לטבע</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="py-20 bg-blue-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 text-blue-800">מסלולים וחוויות</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="images/jerusalem.jpg" alt="סיור בירושלים" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">סיורי עומק בירושלים</h3>
+                        <p class="text-gray-600">בין הסמטאות והסיפורים של העיר העתיקה והחדשה.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="images/galil.jpg" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">טבע ומים בצפון</h3>
+                        <p class="text-gray-600">טיולים רטובים בנחלים ומסלולי פריחה מרהיבים בגולן ובגליל.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition">
+                    <img src="images/negev.jpg" class="h-48 w-full object-cover">
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">סודות המדבר: בין מכתשים למעיינות</h3>
+                        <p class="text-gray-600">מסע בעקבות השקט המדברי, גילוי עוצמת המכתשים ומציאת פינות חמד נסתרות.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-20 bg-white overflow-hidden text-right">
+        <div class="container mx-auto px-6">
+             <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">רגעים מהשטח</h2>
+             
+             <div class="flex overflow-x-auto pb-8 gap-6 snap-x snap-mandatory no-scrollbar">
+                 
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/1.jpeg" alt="גלריה 1" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/2.jpeg" alt="גלריה 2" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/3.jpeg" alt="גלריה 3" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/4.jpeg" alt="גלריה 4" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/5.jpeg" alt="גלריה 5" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/6.jpeg" alt="גלריה 6" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/7.jpeg" alt="גלריה 7" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/8.jpeg" alt="גלריה 8" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/9.jpeg" alt="גלריה 9" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/10.jpeg" alt="גלריה 10" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/11.jpeg" alt="גלריה 11" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+                 <div class="flex-none w-80 md:w-96 relative rounded-2xl overflow-hidden shadow-lg snap-center group">
+                     <img src="images/12.jpeg" alt="גלריה 12" class="w-full h-64 object-cover transition duration-500 group-hover:scale-110">
+                     <div class="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                         <p class="text-white font-medium text-lg"></p>
+                     </div>
+                 </div>
+
+             </div>
+             <p class="text-center text-gray-500 mt-4 md:hidden"><- החליקו לצפייה בתמונות נוספות -></p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-20 container mx-auto px-6 text-center bg-blue-50">
+        <h2 class="text-3xl font-bold mb-16 text-blue-800">מה מטיילים מספרים</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                <p class="italic mb-4">"היה טיול פשוט מדהים! הידע והסבלנות של בועז הפכו את היום הזה לחוויה משפחתית בלתי נשכחת."</p>
+                <p class="font-bold text-blue-600">- משפחת אסרף, פקיעין החדשה</p>
+            </div>
+            <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                <p class="italic mb-4">"לבועז, טיולים רבים עברנו ולרוב עם קבוצות מאורגנות. הפעם התעלית על כולם. הטיול היה מדהים. מאורגן, מתוכנן עם המון הנאה, למידה וידע."</p>
+                <p class="font-bold text-blue-600">- משפחת דוד (איציק ורוחה)</p>
+            </div>
+            <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm">
+                <p class="italic mb-4">"בועז, תודה על אירגון הטיול לירושלים. האתרים היו מאוד מעניינים עם הרבה מידע חשוב. היה כיף באווירה טובה עם הגמלאים שלנו."</p>
+                <p class="font-bold text-blue-600">- משפחת נוי נהריה</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-blue-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-8">מוכנים לצאת לדרך?</h2>
+                <p class="text-xl mb-12 opacity-90 text-right md:text-center">צרו קשר עוד היום ונתכנן יחד את הטיול המושלם עבורכם.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-right">
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-xl text-gray-800 order-2 md:order-1">
+                        <h3 class="text-2xl font-bold mb-6 text-blue-900">שלחו לי הודעה</h3>
+                        <form action="https://formspree.io/f/your_id_here" method="POST" class="space-y-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-1">שם מלא</label>
+                                <input type="text" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">אימייל</label>
+                                <input type="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-1">הודעה</label>
+                                <textarea name="message" rows="4" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition">שלח הודעה למייל</button>
+                        </form>
+                    </div>
+
+                    <div class="flex flex-col justify-center space-y-8 order-1 md:order-2">
+                        <div>
+                            <h4 class="text-xl font-bold mb-6">דרכים נוספות ליצירת קשר:</h4>
+                            <div class="flex flex-col gap-4">
+                                <a href="tel:0505323701" class="flex items-center gap-4 bg-white/10 p-4 rounded-xl hover:bg-white/20 transition">
+                                    <span class="text-2xl">📞</span>
+                                    <span>050-5323701</span>
+                                </a>
+                                <a href="https://wa.me/972505323701" class="flex items-center gap-4 bg-white/10 p-4 rounded-xl hover:bg-white/20 transition">
+                                    <span class="text-2xl">💬</span>
+                                    <span>וואטסאפ ישיר</span>
+                                </a>
+                                <a href="https://chat.whatsapp.com/DdvYlI4u7uM7Ka4K3qkYoS?mode=gi_t" target="_blank" class="flex items-center gap-4 bg-white/10 p-4 rounded-xl hover:bg-white/20 transition border-2 border-green-500">
+                                    <span class="text-2xl">📢</span>
+                                    <span class="font-bold text-green-400">הצטרפו לקבוצת העדכונים</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-gray-500 text-sm bg-white border-t border-gray-100">
+        <p>© 2026 כל הזכויות שמורות לבועז הרץ</p>
+    </footer>
+
+    <a href="https://wa.me/972505323701" class="fixed bottom-6 left-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition z-50">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+    </a>
+
+</body>
+</html>
